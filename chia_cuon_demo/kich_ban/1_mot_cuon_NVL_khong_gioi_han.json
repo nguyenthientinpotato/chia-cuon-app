@@ -1,0 +1,122 @@
+{
+  "master": {
+    "width_mm": 1030.0,
+    "gsm": 63.0,
+    "product": "TP in Nhôm mềm 20mic mờ in OH28",
+    "available_kg": null
+  },
+  "machine": {
+    "min_trim_mm": 30.0,
+    "max_trim_mm": 80.0,
+    "max_strips": 12,
+    "min_strip_mm": 50.0,
+    "max_strip_mm": 1250.0,
+    "multiples": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reslit_trim_mm": 1.0,
+    "length_tol_pct": 5.0,
+    "allow_join": true
+  },
+  "orders": [
+    {
+      "id": "KH-280",
+      "width_mm": 280.0,
+      "kg": 142.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": false
+    },
+    {
+      "id": "KH-222",
+      "width_mm": 222.0,
+      "kg": 30.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": true
+    },
+    {
+      "id": "KH-238",
+      "width_mm": 238.0,
+      "kg": 600.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": false
+    },
+    {
+      "id": "KH-360",
+      "width_mm": 360.0,
+      "kg": 274.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": false
+    },
+    {
+      "id": "KH-355",
+      "width_mm": 355.0,
+      "kg": 180.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": false
+    },
+    {
+      "id": "KH-180",
+      "width_mm": 180.0,
+      "kg": 90.0,
+      "roll_length_m": 2000.0,
+      "over_tol_pct": 10.0,
+      "exact": false
+    }
+  ],
+  "stock": [
+    {
+      "width_mm": 185.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 500.0
+    },
+    {
+      "width_mm": 110.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 200.0
+    },
+    {
+      "width_mm": 270.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 100.0
+    },
+    {
+      "width_mm": 235.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 100.0
+    },
+    {
+      "width_mm": 165.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 200.0
+    },
+    {
+      "width_mm": 140.0,
+      "roll_length_m": 2000.0,
+      "max_kg": 150.0
+    }
+  ],
+  "weights": {
+    "trim": 1.0,
+    "over_in_tol": 0.3,
+    "over_beyond_tol": 3.0,
+    "stock_base": 0.5,
+    "stock_step": 0.1,
+    "setup_per_pattern": 5.0,
+    "reslit_per_roll": 2.0,
+    "join_per_roll": 20.0,
+    "length_dev": 1.0,
+    "over_exact": 50.0
+  },
+  "solver": {
+    "time_limit_s": 30,
+    "mip_solver": "SCIP"
+  }
+}

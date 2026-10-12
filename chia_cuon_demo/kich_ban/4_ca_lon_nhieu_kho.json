@@ -1,0 +1,80 @@
+{
+  "_note": "Vi du lon: 6 don, 2 dong stock (thu tu = uu tien), kho doi/ba/tu, noi cuon (don F 4000m).",
+  "master": {
+    "width_mm": 1250,
+    "gsm": 119.14
+  },
+  "machine": {
+    "min_trim_mm": 10,
+    "max_trim_mm": 40,
+    "max_strips": 20,
+    "multiples": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "length_tol_pct": 5,
+    "allow_join": true
+  },
+  "orders": [
+    {
+      "id": "A",
+      "width_mm": 280,
+      "kg": 900,
+      "roll_length_m": 2000,
+      "over_tol_pct": 5
+    },
+    {
+      "id": "B",
+      "width_mm": 119,
+      "kg": 438,
+      "roll_length_m": 2000,
+      "over_tol_pct": 5
+    },
+    {
+      "id": "C",
+      "width_mm": 238,
+      "kg": 1575,
+      "roll_length_m": 2000,
+      "over_tol_pct": 5
+    },
+    {
+      "id": "D",
+      "width_mm": 50,
+      "kg": 120,
+      "roll_length_m": 2000,
+      "over_tol_pct": 10
+    },
+    {
+      "id": "E",
+      "width_mm": 160,
+      "kg": 260,
+      "roll_length_m": 2000,
+      "over_tol_pct": 5
+    },
+    {
+      "id": "F",
+      "width_mm": 180,
+      "kg": 300,
+      "roll_length_m": 4000,
+      "over_tol_pct": 5
+    }
+  ],
+  "stock": [
+    {
+      "width_mm": 119,
+      "roll_length_m": 2000,
+      "max_kg": 200
+    },
+    {
+      "width_mm": 60,
+      "roll_length_m": 2000,
+      "max_kg": 100
+    }
+  ],
+  "solver": {
+    "time_limit_s": 60,
+    "mip_solver": "SCIP"
+  }
+}
